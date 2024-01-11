@@ -1,7 +1,7 @@
 resources:
-  - app-wordpress-namespace.yml
-  - mysql-deployment.yml
+  - namespace.yml
+  - mysql-deployement.yml
   - wordpress-deployment.yml
   - app-wordpress-secret.yml
-  - service-nodeport-wordpress.yml
+  - mysql-service.yml
   - service-clusterip-mysql.yml
